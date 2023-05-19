@@ -1,0 +1,19 @@
+{
+  "name": "evolto-technology/7star-webserver",
+  "description": "7Star Webserver project",
+  "type": "project",
+  "require": {},
+  "require-dev": {
+    "phpunit/phpunit": "^9.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "helloworld\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "helloworld\\Tests\\": "tests/"
+    }
+  }
+}
